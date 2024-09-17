@@ -1,0 +1,24 @@
+(i want this architecture
+for 3 state : for track id -> Poss1 for 1st measurement , tentative 1 for measurement 2 , firm for measurement 3 (3 hits for firm) (if theres a miss then it has miss count if then a hit comes then miss count becomes 0 again if a miss comes then it should take count as 1 for that track id )
+for 5 state : for track id -> Poss1 for 1st measurement ,  Poss2 for 2nd measurement tentative 1 for measurement 3, tentative 2 for measurement 4, firm for measurement 5 (5 hits for firm) (if theres a miss then it has miss count if then a hit comes then miss count becomes 0 again if a miss comes then it should take count as 1 for that track id )
+for 7 state : for track id -> Poss1 for 1st measurement ,  Poss2 for 2nd measurement tentative 1 for measurement 3, tentative 2 for measurement 4,tentative 3 for measurement 5 firm for measurement 6 (7 hits for firm) (if theres a miss then it has miss count if then a hit comes then miss count becomes 0 again if a miss comes then it should take count as 1 for that track id )
+
+give the current state in whatever state it is poss1/2 or tentative 1/2/3 or firm no need for unknown
+also 
+
+Track ID 2:
+  Measurement: (25.238171, 7.125704, 16.106585, 1.0, 45822.02334)
+  Measurement: (25.195217, 7.042534, 16.076609, 1.0, 45822.21875)
+  Measurement: (25.292265, 6.988354, 16.056887, 1.0, 45822.36328)
+  Measurement: (25.220178, 6.854122, 16.030518, 1.0, 45822.55469)
+  Measurement: (25.280178, 6.894122, 16.130518, 1.0, 45822.55469)
+  Measurement: (25.340178, 6.964122, 16.010518, 1.0, 45822.55469)
+  Measurement: (25.193531, 6.841996, 16.001503, 1.0, 45822.75391)
+  Measurement: (25.200834, 6.975808, 15.986666, 1.0, 45822.86328)
+  Measurement: (24.230322, 7.01817, 15.961466, 1.0, 45822.97656)
+  Hits: 3, Misses: 0
+  Current State: Firm
+  Track ID 2 is firm.
+Track ID 1 is free.
+
+this is my current output so i want it to show like track id 1 is free and also track id 2 is occupied 
